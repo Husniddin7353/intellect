@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+a:hover{
+    color: black;
+    font-size: 16px;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* header */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 12px 100px;
+}
+
+.head p{
+    font-family: Verdana,Tahoma, sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.025em;
+}
+
+.link-item{
+    color: #0A0A0A;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+
+.profile-item{
+    margin: 0 25px;
+}
+/* ---------------------------- */
+
+.informs{
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 0 34px 0;
+}
+
+.inform-part{
+    max-width: 380px;
+}
+.paragraph{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130.5%;
+    margin-bottom: 16px;
+}
+.main-title{
+    margin: 16px 0;
+}
+.type-1{
+    font-size: 14px;
+    line-height: 130.5%;
+    color: #0A0A0A;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.mr{
+    margin-left: 32px;
+}
+
+/* section-blog */
+
+.title{
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+
+.inform-blog{
+    display: flex;
+    margin-bottom: 16px;
+    height: 128px;
+
+}
+.type-2, .tr{
+    margin: 16px 0;
+}
+.trr{
+    margin: 8px 0;
+}
+
+.following{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    margin-top: 32px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.line{
+    border-left: 1px solid #EAEAEA;
+    padding: 10px;
+}
+.blog-article-button{
+    background: #1A8917;
+    border-radius: 8px;
+    width: 81px;
+    height: 32px;
+    border: none;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.blog-article-button:hover{
+    background-color: red;
+    font-size: 14px;
+}
+.see{
+    color: green;
+    transition: 0.5s;
+}
+.see:hover{
+    font-size: 16px;
+    color: green;
+   
+}
+.following-text{
+    max-width:187px;
+}
+.type-3{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 11px;
+    color: #0A0A0A;
+    opacity: 0.5;
+}
+.h4{
+    margin-top: 32px;
+}
+
+/* intelect section 2 part */
+
+.inform-part-2{
+    width: 590px;
+}
+
+.part-2{
+    margin: 16px 0;
+}
